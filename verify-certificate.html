@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Feedback</title>
+    <title>Certificate Verification | Edincline</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -219,11 +219,11 @@
             </div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Share us your feedback!</h2>
+                    <h2>Certificate Verification</h2>
                     <ul class="thm-breadcrumb list-unstyled">
                         <li><a href="index.html">Home</a></li>
                         <li><span>/</span></li>
-                        <li class="active">Feedback</li>
+                        <li class="active">Certificate Verify</li>
                     </ul>
                 </div>
             </div>
@@ -232,60 +232,82 @@
 
 
         <!--Feedback Page Start-->
-        <section class="contact-page" style="padding: 90px 0 90px; !important">
+        <section class="contact-page" style="padding: 90px 0 50px;">
             <div class="container">
-                <div class="row">
+                <div class="row text-center">
 
-                    <div class="section-title text-center" style="margin-bottom: 65px;">
-                        <h2 class="section-title__title">We value your feedback</h2>
+                    <div class="section-title " style="margin-bottom: 65px;">
+                        <h2 class="section-title__title">Complete Your Certificate Validation With Ease!</h2>
+                        <span class="section-title__tagline" style="margin-top: 30px;">
+                            Validate certificates for the events attended.</span>
+
                     </div>
+                    <div class="row" style="margin-top: -30px;">
+                        <div class="col-xl-3"></div>
+                        <div class="col-xl-6" style="margin-left: 15px;">
 
-                    <div class="col-xl-5" style="margin-top: -30px;">
-                        <div class="welcome-one__img">
-                            <img src="assets/images/resources/signup2.jpg">
-                        </div>
-                        <br>
-                    </div>
-                    <div class="col-xl-7 text-center">
-                        
-                        <form class="comment-one__form contact-form-validated comment-one__login-form" style="max-width: 530px;">
-                            <span class="section-title__tagline" style="margin-bottom: 30px;">
-                                We would like your feedback, so we can continuously improve</span>
+                            <p style="font-weight: 600; color: green;"><i class="fa fa-check"></i>&nbsp; Verified!</p>
+                            <p style="font-weight: 600; color: red;"><i class="fa fa-times"></i>&nbsp;Invalid
+                                Certificate!</p>
 
-                            <div class="row text-center">
-                                <div class="col-xl-12">
-                                    <div class="comment-form__input-box">
-                                        <select name="subject">
-                                            <option value="0">Please choose feedback category</option>
-                                            <option value="Suggestion">Suggestion</option>
-                                            <option value="Something is not quite right">Something is not quite right</option>
-                                            <option value="Compliment">Compliment</option>
-                                        </select><!-- /# -->
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="comment-form__input-box">
-                                        <input type="text" placeholder="Subject" name="text">
-                                    </div>
-                                </div>
+                            <div class="search-popup__content">
+                                <form action="#">
+                                    <input type="text" placeholder="Enter Certificate Number..."
+                                        style="background-color: #d7d7d7c4;" />
+                                    <button type="submit" aria-label="search submit" class="thm-btn">
+                                        <i class="icon-magnifying-glass"></i>
+                                    </button>
+                                </form>
+                            </div>
 
-                                <div class="col-xl-12">
-                                    <div class="comment-form__input-box text-message-box">
-                                        <textarea name="message"
-                                            placeholder="Please leave your feedback here"></textarea>
-                                    </div>
-                                    <div class="comment-form__btn-box">
-                                        <button type="submit" class="thm-btn comment-form__btn">Send us a
-                                            message</button>
+                            <!--Not Verify Certificate Section-->
+                            <div class="row"
+                                style="border: 2.5px solid #ac1b01; border-radius: 30px; margin-top: 20px; display: none;">
+                                <p style="margin-top: 12px;">No certificate found against this certificate number!</p>
+                            </div>
+
+                            <!--Verified Certificate Section-->
+                            <div class="row text-center"
+                                style="border: 5px double #166d00; border-radius: 30px; margin-top: 20px; display: block;">
+                                
+                                <img src="assets/images/section/verified.png" style="width: 20%;">
+                                <h4 style="margin-top: 10px;">Milind.K</h4>
+                                <div class="col-sm-12" style="text-align: start;">
+                                    <div style="padding: 10px 10px;">
+                                        <p>Event Name : <a href="#">XYZ Event</a><br>Event Date &nbsp;&nbsp;: 01/01/2022</p>
                                     </div>
                                 </div>
                             </div>
-                        </form>
+
+                        </div>
+                        <div class="col-xl-3"></div>
+
                     </div>
                 </div>
             </div>
         </section>
         <!--Contact Page End-->
+
+        <!--Get Certificate Section-->
+        <div class="container text-center" style="padding: 20px; margin-bottom: 90px;">
+            <div class="row" style="border: 3.5px dashed #ffa415; border-radius: 30px;">
+                <div class="col-sm-4">
+                    <img src="assets/images/section/verify-star.png">
+                </div>
+                <div class="col-sm-8">
+                    <div style="padding: 40px 10px;">
+                        <h4>Don't Forget To Obtain Your Certificate!</h4><br>
+                        <p>We offer certificate verification for every event organized by the Edincline Foundation.<br>
+                            Your profile details show your certificate for the events you attended.</p>
+                        <a href="donate-now.html" class="donate-btn-sm">
+                            <i class="fa fa-user-circle"></i>&nbsp;&nbsp;Sign-up so you don't miss the events
+                            &nbsp;&nbsp;></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
 
         <!--Site Footer Start-->
         <footer class="site-footer">
