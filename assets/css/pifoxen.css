@@ -8475,7 +8475,8 @@ ul {
 .page-header {
   position: relative;
   display: block;
-  padding: 119px 0 118px;
+  /* padding: 119px 0 118px; */
+  padding: 80px 0 80px;
   background-color: var(--pifoxen-black);
   z-index: 1;
 }
@@ -11453,7 +11454,7 @@ ul {
 .contact-page {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 120px 0 80px;
 }
 
 .contact-page__left {
@@ -11604,7 +11605,7 @@ ul {
 
 .contact-info__single-3 {
   background-color: var(--pifoxen-extra);
-  padding: 43px 60px 73px;
+  /* padding: 43px 60px 73px; */
 }
 
 /*--------------------------------------------------------------
