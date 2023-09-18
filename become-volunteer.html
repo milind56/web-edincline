@@ -44,6 +44,7 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/pifoxen.css" />
     <link rel="stylesheet" href="assets/css/pifoxen-responsive.css" />
+
 </head>
 
 <body>
@@ -292,12 +293,12 @@
                             </div>
                             <div class="col-xl-12">
                                 <div class="become-volunteer__input">
-                                    <input type="text" placeholder="Address" name="Address">
+                                    <input type="text" placeholder="Address" name="subject">
                                 </div>
                             </div>
                             <div class="col-xl-6">
                                 <div class="become-volunteer__input">
-                                    <input type="text" placeholder="Date of Birth" name="date" id="datepicker">
+                                    <input type="text" placeholder="Date of Birth" name="msg" id="datepicker">
                                 </div>
                             </div>
                             <div class="col-xl-6">
@@ -310,7 +311,7 @@
                                     <textarea name="message" placeholder="Write a Comment"></textarea>
                                 </div>
                                 <div class="become-volunteer__btn-box">
-                                    <button type="submit" class="thm-btn become-volunteer__btn">Send us a
+                                    <button  type="submit" class="thm-btn become-volunteer__btn">Send us a
                                         message</button>
                                 </div>
                             </div>
@@ -323,6 +324,19 @@
 </section>
 <!--Become Volunteer End-->
 
+<script>
+    function mail(form) {
+      var name = form.name.value;
+      var phone = form.phone.value;
+      var email = form.email.value;
+      var subject = form.subject.value;
+      var msg = form.msg.value;
+
+      var EmailStr = "mailto:info@revenuetrendamerica.com?subject=" + subject + "&body=Name: "+name+"%0APhone:"+phone+"%0AEmail: "+email+"%0AMessage: "+msg;
+
+      document.getElementById('send').href = EmailStr;
+    }
+  </script>
 
         
 
