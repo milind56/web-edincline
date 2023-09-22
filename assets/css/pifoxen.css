@@ -6117,7 +6117,7 @@ ul {
 
 .testimonial-two__content::after {
   position: absolute;
-  bottom: -10px;
+  /* bottom: -10px; */
   left: 64px;
   right: 0;
   content: "";
@@ -6206,7 +6206,7 @@ ul {
 
 .testimonial-two__carousel.owl-theme .owl-nav {
   position: absolute;
-  bottom: 135px;
+  /* bottom: 135px; */
   left: -399px;
   margin: 0;
 }
