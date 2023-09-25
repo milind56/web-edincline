@@ -2456,8 +2456,8 @@ ul {
 }
 
 .main-slider-two .container {
-  padding-top: 383px;
-  padding-bottom: 270px;
+  padding-top: 180px;
+  padding-bottom: 180px;
 }
 
 .main-slider-two .main-slider__content {
@@ -11621,7 +11621,8 @@ ul {
   position: relative;
   display: block;
   border: none;
-  height: 540px;
+  height: 370px;
+  /* height: 540px; */
   width: 100%;
 }
 /*# sourceMappingURL=pifoxen.css.map */
